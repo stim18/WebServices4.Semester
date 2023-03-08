@@ -1,4 +1,4 @@
-# WebServices4.Semester
+# WebServices 4.Semester Fitness
 WebServices Projekt 4. Semester. Eine Internetseite, über die man seine Trainingseinheiten tracken kann und ggf. auch Ernährung.
 
 Startpunkt:   8. März 2023
