@@ -1,0 +1,23 @@
+.mdl-mega-footer {
+    background-color: #38339a;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 32px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .mdl-mega-footer h1.mdl-mega-footer__heading {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  
+  .mdl-mega-footer ul.mdl-mega-footer__link-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
