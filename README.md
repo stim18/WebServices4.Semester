@@ -29,3 +29,13 @@ Ideensammlung:
     - 
 
 Ernährung schon Ideen sammeln oder erstmal hinten an stellen?
+
+
+Dennis:
+
+
+Ben:
+
+
+Tim: 
+Frontend Erstellung
