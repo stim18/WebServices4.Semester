@@ -28,7 +28,9 @@ Ideensammlung:
     - Entwicklung bei Gewicht/Wiederholungen (wahrscheinlich eher Gewicht relevant)
     - 
 
-Ernährung schon Ideen sammeln oder erstmal hinten an stellen?
+Projektidee:
+Da als INformatiker häufig Sport an zweiter oder eher dritter Stelle steht war unser Plan die Erstellung einer Anwendung, über die man auf einen online Trainingsplan zugreifen kann. Der Trainingsplan soll bei der Einschätzung der eigenen Leistungen helfen und je nach Ziel entsprechend angepasste Übungen vorschlagen. Übungen des jeweiligen Trainings können herausgefiltert werden und Videobeispiele werden verlinkt. Der Trainingsplan ist eine Empgehlung und für die ordentliche Ausführung ist der trainierende selbst verantwortlich. 
+Die Anwendung unterstützt beim Training, da man nach absolviertem Training seine Daten eintragen kann, welche dann von der Anwendung in Verbindung mit dem User abgespeichert wird und eine Historie des Trainingsverlaufs ermöglicht. Dieser Abschnitt ist unter dem Reiter "Meine Erfolge" aufgelistet. 
 
 
 Dennis:
@@ -38,4 +40,8 @@ Ben:
 
 
 Tim: 
-Frontend Erstellung
+Erstellung Frontend:
+Das Frontend wurde mit html und CSS erstellt. Die Quellen der Seiteninhalte werden in einer externen Textdatei abgegenen (Name: Quellen). Anbindung an das Backend und die API in Zusammenarbeit mit Dennis.
+BPMN: 
+Das BPMn-Modell wurde mithilfe von Signavio erstellt auf Grundlage der Vorlesung bei Herrn Taut.
+Erstellung der Dokumentation.
