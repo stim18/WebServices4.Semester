@@ -43,5 +43,5 @@ Tim:
 Erstellung Frontend:
 Das Frontend wurde mit html und CSS erstellt. Die Quellen der Seiteninhalte werden in einer externen Textdatei abgegenen (Name: Quellen). Anbindung an das Backend und die API in Zusammenarbeit mit Dennis.
 BPMN: 
-Das BPMn-Modell wurde mithilfe von Signavio erstellt auf Grundlage der Vorlesung bei Herrn Taut.
+Das BPMN-Modell wurde mithilfe von Signavio erstellt auf Grundlage der Vorlesung bei Herrn Taut.
 Erstellung der Dokumentation.
