@@ -37,7 +37,16 @@ Dennis:
 
 
 Ben:
-
+Erstellung Rest APIs mit MongoDB Anbindung:
+Benutzer API
+-Post zum erstellen von Nutzern
+-Verschiedene Post zum ändern der Nutzer Daten
+-get um Nutzerdaten anzuzeigen
+Training API
+-Post zum eintragen eines Trainings
+-get alle Trainings anzeigen
+-get alle Trainings eines Nutzer anzuzeigen
+-get um Trainingsplan eines Nutzers zu bekommen
 
 Tim: 
 Erstellung Frontend:
