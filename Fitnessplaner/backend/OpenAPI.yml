@@ -1,0 +1,94 @@
+openapi: '3.0.2'
+info:
+  title: API Title
+  version: '1.0'
+servers:
+  - url: http://localhost:3000
+    description: Client
+ 
+
+paths:
+  /Neck:
+    get:
+      responses:
+        '200':
+          description: Kontrolle, ob ich eine Antwort bekomme
+  /Biceps:
+    get:
+     responses:
+      '200':
+        description: Kontrolle, ob die Zurückgegbene Datei eine JSON Datei mit String ist
+        content:
+          application/json:
+            schema: 
+              type: object
+              properties:
+                name: 
+                  type: string
+                type: 
+                  type: string
+                muscle: 
+                  type: string
+                equipment: 
+                  type: string
+                difficulty: 
+                  type: string
+                instructions: 
+                  type: string
+  /Chest:
+   get:
+     responses:
+      '200':
+        description: Auch hier eine Json Datei, wie bei /Biceps
+        content:
+          application/json:
+            schema: 
+              type: object
+              properties:
+                name: 
+                  type: string
+                type: 
+                  type: string
+                muscle: 
+                  type: string
+                equipment: 
+                  type: string
+                difficulty: 
+                  type: string
+                instructions: 
+                  type: string
+  
+  /Fail:
+   get:
+     responses:
+      '200':
+        description: Keine Antwort, beabsichtigter Error
+        content:
+          application/json:
+            schema: 
+              type: object
+              properties:
+                name: 
+                  type: string
+                type: 
+                  type: string
+                muscle: 
+                  type: string
+                equipment: 
+                  type: string
+                difficulty: 
+                  type: string
+                instructions: 
+                  type: string
+  /training/all:
+    get:
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: OK
+   
+
+
+
+

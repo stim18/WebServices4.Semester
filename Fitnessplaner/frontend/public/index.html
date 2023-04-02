@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Section configuration</title>
+         <!-- Link zum Material Design Lite CSS -->
+            <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+            <!-- Link zu den Material Design Lite JavaScript-Dateien -->
+            <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+            <!-- Link zum Material Icons Font -->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <style>
+        body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        box-sizing: border-box;
+        background-color: rgb(207, 244, 255);
+        }
+        .top-section {
+        background-color: #2196f3; 
+        color: #fff; 
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%; 
+        height: 10%;
+        }
+        .middle-section {
+        position: fixed;
+        top: 10%;
+        left: 5%;
+        right: 5%;
+        height: 80%;
+        background-color: rgb(207, 244, 255);
+        }
+        .bottom-section {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 10%;
+        background-color: rgb(55, 56, 55);
+        }
+        </style>
+    </head>
+
+
+
+
+
+    
+    <header>
+        <style>
+        .mdl-layout_header {
+        background-color: #5ba4e0;
+        color: #fff;
+        height: 56px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        }
+        .mdl-layout-title {
+        font-size: 24px;
+        margin: 0 16px;
+        }
+        .mdl-layout__tab-bar {
+        background-color: #61a7ec;
+        height: 48px;
+        }
+        .mdl-layout_tab.is-active {
+        background-color: rgba(15, 209, 93, 0.2); /* Active tab background color */
+        
+        color: #1976d2; /* Active tab text color */
+        }
+        
+        </style>  
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">FitnessPlaner</span>
+                </div>
+                <!-- Tabs -->
+                <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Einführung</a>
+                <a href="#fixed-tab-2" class="mdl-layout__tab ">Übungen</a>
+                <a href="#fixed-tab-3" class="mdl-layout__tab ">Meine Erfolge</a>
+                </div>
+            </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Title</span>
+        </div>
+
+
+        <main class="mdl-layout__content">
+            <style>
+            .scrollable {
+            height: 80%;
+            top: 10%;
+            overflow-y: auto;
+            }
+            </style>
+            <div class="middle-section scrollable">
+                <!-- Sektion 1 -->
+                <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+                    <div class="page-content">
+                        <head>
+                            <h3 style="color: #000000; font-weight: bold; margin-bottom: 20px;">
+                                Motivation
+                            </h3>
+                        </head>
+                        <body>
+                    
+                            <h5 style="line-height: 1.5; text-align: justify;">
+                                Das Anlegen eines Trainingsplans ist der erste Schritt zum Erreichen seiner Fitnessziele.
+                                Da man ohne Plan zwar Ziele haben kann, aber erst mit Plan sieht man den Weg, den man gehen muss.
+                                Ganz egal welches Fitnessziel zu erreichen ist, mit dem passenden Plan fällt dies immer leichter.
+                                Aus diesem Grund haben wir uns damit beschäftigt, das optimale Trainingserlebnis für dich zu erstellen und das ganz nach deinem Geschmack.
+                                Unsere Fitnessapp soll dir dabei helfen, dein Training ganz nach deinem Ermessen zu erstellen. 
+                                Ob du viel oder wenig Zeit aufbringen kannst, ist dabei erst einmal egal. Denn das Wichtigste für uns ist, dass du Zeit aufbringen kannst!
+                                Wir versuchen durch grundlegende Kenntnisse im Bereich Fitness, deinen Trainingsplan zu erstellen. 
+                                Dabei bieten wir eine große Bandbreite an Beispielübungen und Trainingsvolumen. 
+                            </h5>
+                            <h3 style="color: #000000; font-weight: bold; margin-top: 30px; margin-bottom: 20px;">
+                                Wie trainiere ich am besten?
+                            </h3>
+                            <h5 style="line-height: 1.5; text-align: justify;">
+                                Jeder Mensch ist unterschiedlich, aus diesem Grund ist auch jedermanns Training unterschiedlich. 
+                                Dabei sind Alter, Größe, Gewicht und Geschlecht nur ein Teil der ausschlaggebenden entscheidenden Kriterien.
+                                Am wichtigsten ist es, sein eigenes Kraftlevel kennen zu lernen, darauf aufbauend kann man dann sein optimales Training starten.
+                                Diese Kenntnis allein reicht allerdings meist nicht zum Trainieren aus, vor allem nicht dann, wenn man ein Ziel vor Augen hat.
+                                Man kann Training allgemein in drei Hauptziele aufteilen.
+                                <br> 
+                                <br> Diese sind:
+                                <ul style="margin-bottom: 20px;">
+                                    <li style="font-size: 18px"><b>Muskelaufbau</b></li>
+                                    <li style="font-size: 18px"><b>Krafterhalt</b></li>
+                                    <li style="font-size: 18px"><b>Kraftausdauer</b></li>
+                                    
+                                </ul> 
+                            </h5>
+                            
+                        </body>
+                    </div>
+                </section> 
+                <!-- Sektion 2 -->
+                <section class="mdl-layout__tab-panel " id="fixed-tab-2">
+                    <div class="page-content">
+                    <head>
+                        <h3>
+                        Übungen zum Muskelaufbau
+                        </h3>
+                    </head>
+                    <body>
+                        <p>
+                            <h6 style="line-height: 1; text-align: justify;">
+                            Es gibt viele Gründe, warum es wichtig ist, seine Muskeln regelmäßig zu trainieren. 
+                            Ein guter Trainingsplan kann nicht nur dazu beitragen, dass du stärker wirst und besser aussiehst, sondern auch deine Gesundheit und dein Wohlbefinden verbessern. 
+                            Um jedoch das Beste aus deinem Training herauszuholen, solltest du sicherstellen, dass du die richtigen Übungen ausführst und dass diese Übungen auf deine Erfahrung und das Gerät abgestimmt sind, das du verwendest.
+                            </h6>
+                            <h6 style="line-height: 1; text-align: justify;">
+                            Eine Möglichkeit, deine Muskeln zu trainieren, ist durch Krafttraining. 
+                            Krafttraining kann helfen, deine Muskeln zu stärken und zu straffen und kann auch dazu beitragen, Knochenmasse aufzubauen und das Risiko von Verletzungen zu verringern. 
+                            Es gibt viele verschiedene Arten von Krafttraining, die sich auf unterschiedliche Muskelgruppen konzentrieren, wie zum Beispiel Brust, Rücken, Schultern, Arme und Beine.
+                            </h6>
+                            <h6 style="line-height: 1; text-align: justify;">
+                            Wenn es um das Krafttraining geht, ist es wichtig zu beachten, dass es keine Einheitslösung gibt, die für alle gilt. 
+                            Jede Musikgruppe erfordert unterschiedliche Übungen und Herangehensweisen, um die bestmöglichen Ergebnisse zu erzielen. 
+                            Zum Beispiel erfordert das Training der Beine möglicherweise Übungen wie Kniebeugen, Ausfallschritte oder Beinpresse, während das Training der Arme Übungen wie Bizeps-Curls, Trizeps-Extensions oder Armheben erfordern könnte.
+                           </h6>
+                           <h6 style="line-height: 1; text-align: justify;">
+                            Darüber hinaus sollten die Übungen, die du ausführst, auch auf dein Erfahrungslevel und das Gerät, das du verwendest, abgestimmt sein. 
+                            Wenn du noch nicht viel Erfahrung mit dem Krafttraining hast, solltest du möglicherweise mit leichteren Gewichten beginnen und dich allmählich steigern, um Verletzungen zu vermeiden. Wenn du zu Hause trainierst, solltest du sicherstellen, 
+                            dass du über das richtige Equipment verfügst, um die Übungen richtig auszuführen.
+                            </h6>
+                            <h6 style="line-height: 1; text-align: justify;">
+                            Zusammenfassend ist es wichtig, dass du deine Muskeln regelmäßig trainierst, um deine Gesundheit, dein Wohlbefinden und deine körperliche Leistungsfähigkeit zu verbessern. 
+                            Es gibt viele verschiedene Arten von Krafttraining, die sich auf unterschiedliche Muskelgruppen konzentrieren, und jede Musikgruppe erfordert unterschiedliche Übungen und Herangehensweisen, um die bestmöglichen Ergebnisse zu erzielen. 
+                            Stelle sicher, dass du die richtigen Übungen ausführst und dass diese auf dein Erfahrungslevel und das Gerät abgestimmt sind, das du verwendest, um das Beste aus deinem Training herauszuholen.
+                        </h6>
+                        </p>
+                        
+                        <!-- Eingabe Muskelgruppe -->
+                        <div id ="root" ></div>
+                    </section>
+                <!-- Sektion 3 -->
+                <section class="mdl-layout__tab-panel " id="fixed-tab-3">
+                    <div class="page-content">
+                    <head>
+                        <h3>
+                        Trainingserfolge und Fortschritte
+                        </h3>
+                    </head>
+                    <body>
+                        <div id ="root1" ></div>
+                    </body>
+                    </div>
+                </section>
+            </div>
+        </main>    
+
+
+
+
+
+            <div class="bottom-section">
+                <style>
+                    .mdl-mega-footer {
+                    font-size: 14px;
+                    line-height: 14px;
+                    padding: 10px;
+                    width: 100%;
+                    }
+
+                    .mdl-mega-footer h2.mdl-mega-footer__heading {
+                    font-size: 12px;
+                    margin-top: 0;
+                    }
+                </style>
+                <footer class="mdl-mega-footer">
+                    <div class="mdl-mega-footer__middle-section">
+                        <div class="mdl-mega-footer__drop-down-section">
+                            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                            <h2 class="mdl-mega-footer__heading">Features</h2>
+                            <ul class="mdl-mega-footer__link-list">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Updates</a></li>
+                            </ul>
+                        </div>
+                        <div class="mdl-mega-footer__drop-down-section">
+                            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                            <h2 class="mdl-mega-footer__heading">Details</h2>
+                            <ul class="mdl-mega-footer__link-list">
+                                <li><a href="#">Specs</a></li>
+                                <li><a href="#">Tools</a></li>
+                                <li><a href="#">Resources</a></li>
+                            </ul>
+                        </div>
+                        <div class="mdl-mega-footer__drop-down-section">
+                            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                            <h2 class="mdl-mega-footer__heading">Technology</h2>
+                            <ul class="mdl-mega-footer__link-list">
+                                <li><a href="#">How it works</a></li>
+                                <li><a href="#">Patterns</a></li>
+                                <li><a href="#">Usage</a></li>
+                            </ul>
+                        </div>
+                        <div class="mdl-mega-footer__drop-down-section">
+                            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                            <h2 class="mdl-mega-footer__heading">FAQ</h2>
+                            <ul class="mdl-mega-footer__link-list">
+                                <li><a href="#">Questions</a></li>
+                                <li><a href="#">Answers</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </header>
+    </main>
+</html>
+
+
+
+
+
+ <!---          <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+                <head class="mdl-layout__header">
+                    <div class="top-section">
+                        <style>
+                        .mdl-layout_header {
+                        background-color: #2196f3;
+                        color: #fff;
+                        height: 56px;
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                        z-index: 100;
+                        }
+                        .mdl-layout-title {
+                        font-size: 24px;
+                        margin: 0 16px;
+                        }
+                        .mdl-layout__tab-bar {
+                        background-color: #1976d2;
+                        height: 48px;
+                        }
+                        .mdl-layout_tab.is-active {
+                        background-color: rgba(15, 209, 93, 0.2); /* Active tab background color */
+                        
+                        color: #1976d2; /* Active tab text color */
+                        }
+                        </style>    
+                        <div class="mdl-layout__header-row">
+                        
+                        <span class="mdl-layout-title">FitnessPlaner</span>
+                        </div>
+                        
+                        <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                        <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Einführung</a>
+                        <a href="#fixed-tab-2" class="mdl-layout__tab">Trainingsplanauswahl</a>
+                        <a href="#fixed-tab-3" class="mdl-layout__tab">Meine Erfolge</a>
+                        </div>
+                        <div class="mdl-layout__drawer">
+                            <span class="mdl-layout-title">Title</span>
+                        </div>
+                    </div>
+                </head>
+            ---> 
+
+
+
